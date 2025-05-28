@@ -30,7 +30,7 @@ Resources:
       SSESpecification:
         SSEEnabled: true # Enable server-side encryption for the table
       Tags:
-        - Key: "Project"
+        - Key: "Project" 
           Value: !Sub "HotelApp-${Environment}"
 
   # IAM Role for App Runner to access DynamoDB
